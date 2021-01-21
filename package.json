@@ -1,0 +1,22 @@
+{
+  "name": "exceptionserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "bin": {
+    "myapp": "./bin/www"
+  },
+  "pkg": {
+    "scripts": "./public/javascripts/*.js",
+    "assets": ["./public/*.html","./public/stylesheets/*.css", "./public/javascripts/*.js"]
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hashset": "0.0.6",
+    "morgan": "~1.9.1"
+  }
+}

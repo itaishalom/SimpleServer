@@ -1,0 +1,1 @@
+Simple config server which holds the config.json
